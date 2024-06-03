@@ -1,0 +1,233 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #444444;
+  background-color: #000000;
+  margin:0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+#main {
+  margin-top: 50px;
+}
+
+.navbar .logo {
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navbar .logo:hover {
+  color: #34b7a7;
+}
+
+.navbar .logo img {
+  max-height: 40px;
+}
+
+.navbar {
+  position: fixed;
+  padding:0;
+  background-color: #1E1E1E;
+  color: white;
+  width: 100%;
+  z-index:100;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.navbar-toggler{
+background-color: #434040;
+}
+.navbar-nav a {
+  color: white;
+}
+
+.navbar-nav a:hover {
+  color: rgb(42, 198, 198);
+
+}
+
+.navbar li {
+  position: relative;
+  padding: 10px 0 10px 28px;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.python-logo {
+  width: 10%;
+  height: auto;
+}
+
+.col-12 {
+  justify-content: center;
+}
+
+.btn {
+  font-size: 19px;
+  font-weight: bold;
+  background:linear-gradient(to right,#0D8CDC,#11B0AB);
+  border-radius: 30px;
+  color: white;
+  height: 60px;
+  width: 160px;
+  
+}
+
+.col-lg-12 p {
+  margin: 0;
+  padding: 0;
+}
+
+.col-lg-12 {
+  margin-bottom: 10px;
+}
+
+.body-section h3 {
+  font-size: 30px;
+  color: rgb(30, 169, 194);
+  font-style: italic;
+  padding-top: 250px;
+
+}
+
+.body-section h1 {
+  font-size: 90px;
+  color: rgb(13, 138, 221);
+  font-weight: bold;
+  
+}
+
+.body-section span {
+  background: -webkit-linear-gradient(rgb(46, 117, 164), rgb(14, 215, 198));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.body-section p {
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.footer{
+ justify-content: center;
+ margin-top:100px;
+}
+
+.footer h6{
+  font-size: 22px;
+  color: rgb(86, 168, 223);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+.footer i{
+   color: #A1A1A1;  
+   margin-left: 25px; 
+   font-size: 25px;            
+}
+.footer p{
+  color: #A1A1A1;  
+  margin-left: 15px; 
+  font-size: 18px;            
+}
+.footer i:hover{
+  color: #ffffff;  
+  margin-left: 25px; 
+  font-size: 35px;            
+}
+.table{
+  --bs-table-bg:transparent;
+  -webkit-text-fill-color: #ffffff;
+}
+.aboutme{
+margin-top: 230px;
+width: 100%;
+margin-left: 100px;
+
+}
+.aboutme h1{
+  color: aquamarine;
+  font-size:75px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+.aboutme h3{
+  background: -webkit-linear-gradient(left,#0D8CDC,#11B0AB);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  font-size: 65px;
+  font-weight: bold;
+}
+.aboutme h2{
+  color: rgb(111, 141, 117);
+  font-size:35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.aboutme p{
+  color: rgb(231, 219, 219);
+  font-size:20px;
+  margin-bottom: 20px;
+}
+.aboutme table{
+  color: rgb(17, 156, 169);
+  font-size:20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.buttn-hire{
+  font-size: 19px;
+  font-weight: bold;
+  background:linear-gradient(to right,#0D8CDC,#11B0AB);
+  border-radius: 30px;
+  color: white;
+  height: 60px;
+  width: 160px;
+}
+
+

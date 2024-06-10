@@ -1,0 +1,30 @@
+
+.project-section {
+    margin-top:100px;
+   
+}
+.project-title h1{
+    font-size:80px;
+    color: aqua;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.projects-nos h4,h5{
+font-size: 20px;
+color: rgb(64, 112, 112);
+margin-bottom: 20px;
+}
+.projects-nos h2{
+    font-size: 40px;
+    color: rgb(168, 183, 183);
+    margin-bottom: 10px;
+}
+.btn-pro{
+    border-radius: 10px;
+    width: 40px;
+    justify-content: center;
+    height: 30px;
+    margin-left: 100px;
+    background-color: rgb(27, 143, 158);
+    border-width: 0;
+}
